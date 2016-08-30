@@ -52,6 +52,10 @@ a:focus {
 .light {
   font-weight: 400;
 }
+.proj-img {
+  height: 260px;
+  width: 500px;
+}
 .navbar-custom {
   margin-bottom: 0;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
@@ -124,7 +128,7 @@ a:focus {
   padding: 100px 0;
   text-align: center;
   color: white;
-  background: url(../img/universe.jpeg) no-repeat bottom center scroll;
+  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -220,16 +224,20 @@ a:focus {
 .content-section {
   padding-top: 100px;
 }
-.download-section {
+.projects-section {
   width: 100%;
   padding: 50px 0;
   color: white;
-  background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+  background: url(../img/projects-bg.jpg) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+.projects-list img {
+  list-style-type: none;
+  float: left;
 }
 #map {
   width: 100%;
