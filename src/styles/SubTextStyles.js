@@ -1,12 +1,9 @@
 import styled from "styled-components";
 
 const SubTextStyles = styled.a`
-  position: absolute;
-  width: 205px;
-  height: 106px;
-  left: 857px;
-  top: 556px;
   display: flex;
+  justify-content: center;
+  align-items: center;
 
   font-family: SeoulHangang CB;
   font-style: normal;

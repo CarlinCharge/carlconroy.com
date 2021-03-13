@@ -1,12 +1,9 @@
 import styled from "styled-components";
 
 const TitleStyles = styled.h1`
-  position: absolute;
-  width: 368px;
-  height: 96px;
-  left: 776px;
-  top: 394px;
-  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   font-family: Segoe UI;
   font-style: normal;
