@@ -4,6 +4,8 @@ const IndexStyles = styled.html`
   background: #4b7f52;
   display: flex;
   align-items: center;
+  position: absolute;
+  margin: 0 auto;
 `;
 
 export default IndexStyles;

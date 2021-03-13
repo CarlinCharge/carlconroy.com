@@ -6,10 +6,6 @@ const TitleStyles = styled.h1`
   height: 96px;
   left: 776px;
   top: 394px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 
   font-family: Segoe UI;
   font-style: normal;
