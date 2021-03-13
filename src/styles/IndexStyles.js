@@ -4,7 +4,8 @@ const IndexStyles = styled.html`
   background: #4b7f52;
   display: flex;
   align-items: center;
-  min-height: 100vh;
+  width: 100%;
+  height: 100%;
   justify-content: center;
 `;
 
