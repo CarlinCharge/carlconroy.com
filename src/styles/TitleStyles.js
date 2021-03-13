@@ -6,6 +6,7 @@ const TitleStyles = styled.h1`
   height: 96px;
   left: 776px;
   top: 394px;
+  text-align: center;
 
   font-family: Segoe UI;
   font-style: normal;
