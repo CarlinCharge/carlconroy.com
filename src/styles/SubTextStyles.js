@@ -5,10 +5,8 @@ const SubTextStyles = styled.a`
   width: 205px;
   height: 106px;
   left: 857px;
-  top: 526px;
+  top: 556px;
   display: flex;
-  align-items: center;
-  justify-content: center;
 
   font-family: SeoulHangang CB;
   font-style: normal;
