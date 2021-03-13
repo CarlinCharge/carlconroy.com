@@ -6,8 +6,13 @@ import TitleStyles from "../styles/TitleStyles";
 const IndexPage = () => {
   return (
     <div>
+      <head>
+        <meta charset="UTF-8"></meta>
+      </head>
       <IndexStyles>
-        <TitleStyles>The Future Location of My Digital Greenhouse</TitleStyles>
+        <TitleStyles>
+          The Future Location of My Digital Greenhouse 🌱
+        </TitleStyles>
       </IndexStyles>
       <SubTextStyles>
         <a href="https://carlconroydesign.com">Carl Conroy Design</a>
