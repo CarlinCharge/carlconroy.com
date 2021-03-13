@@ -13,10 +13,10 @@ const IndexPage = () => {
         <TitleStyles>
           The Future Location of My Digital Greenhouse 🌱
         </TitleStyles>
+        <SubTextStyles>
+          <a href="https://carlconroydesign.com">Carl Conroy Design</a>
+        </SubTextStyles>
       </IndexStyles>
-      <SubTextStyles>
-        <a href="https://carlconroydesign.com">Carl Conroy Design</a>
-      </SubTextStyles>
     </div>
   );
 };
