@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import * as Colors from "./Colors";
 
 const TitleStyles = styled.h1`
   display: flex;
@@ -11,7 +12,7 @@ const TitleStyles = styled.h1`
   font-size: 36px;
   line-height: 48px;
   text-align: center;
-  color: #9fffcb;
+  color: ${Colors.Green};
 `;
 
 export default TitleStyles;

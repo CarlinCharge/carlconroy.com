@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import * as Colors from "./Colors";
 
 const SubTextStyles = styled.a`
   display: flex;
@@ -13,7 +14,7 @@ const SubTextStyles = styled.a`
   text-align: center;
   text-decoration: none;
 
-  color: #c9ffe2;
+  color: ${Colors.SubText};
 `;
 
 export default SubTextStyles;
