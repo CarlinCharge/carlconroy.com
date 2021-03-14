@@ -2,12 +2,7 @@ import * as Colors from "../../styles/Colors";
 import styled from "styled-components";
 
 export const Title = styled.h1`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   font-family: Segoe UI;
-  font-style: normal;
   font-weight: normal;
   font-size: 36px;
   line-height: 48px;
@@ -16,10 +11,6 @@ export const Title = styled.h1`
 `;
 
 export const SubText = styled.a`
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
   font-family: SeoulHangang CB;
   font-style: normal;
   font-weight: normal;
@@ -34,6 +25,8 @@ export const SubText = styled.a`
 export const Index = styled.div`
   background: #4b7f52;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
   width: 100vw;
