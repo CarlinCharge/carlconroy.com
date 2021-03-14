@@ -1,16 +1,14 @@
 import * as React from "react";
-import IndexStyles from "../../styles/IndexStyles";
-import SubTextStyles from "../../styles/SubTextStyles";
-import TitleStyles from "../../styles/TitleStyles";
+import * as S from "./styles";
 
 const Homepage = () => {
   return (
-    <IndexStyles>
-      <TitleStyles>The Future Location of My Digital Greenhouse 🌱</TitleStyles>
-      <SubTextStyles href="https://carlconroydesign.com">
+    <S.Index>
+      <S.Title>The Future Location of My Digital Greenhouse 🌱</S.Title>
+      <S.SubText href="https://carlconroydesign.com">
         Carl Conroy Design
-      </SubTextStyles>
-    </IndexStyles>
+      </S.SubText>
+    </S.Index>
   );
 };
 
