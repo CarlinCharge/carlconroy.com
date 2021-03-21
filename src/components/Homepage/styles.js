@@ -2,28 +2,29 @@ import * as Colors from "../../styles/Colors";
 import styled from "styled-components";
 
 export const Title = styled.h1`
-  font-family: Segoe UI;
-  font-weight: normal;
-  font-size: 36px;
-  line-height: 48px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26.4498px;
+  line-height: 165%;
   text-align: center;
-  color: ${(props) => (props.theme === "admin" ? "red" : Colors.Green)};
+  color: ${Colors.HomepageText};
 `;
 
-export const SubText = styled.a`
-  font-family: SeoulHangang CB;
+export const MainText = styled.h2`
+  font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
-  font-size: 36px;
-  line-height: 36px;
-  text-align: center;
-  text-decoration: none;
+  font-size: 35.6614px;
+  line-height: 165%;
+  /* or 59px */
 
-  color: ${Colors.SubText};
+  text-align: center;
+
+  color: ${Colors.HomepageText};
 `;
 
 export const Index = styled.div`
-  background: #4b7f52;
   display: flex;
   flex-direction: column;
   justify-content: center;

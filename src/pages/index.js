@@ -6,6 +6,7 @@ const IndexPage = () => {
   return (
     <>
       <GlobalStyle />
+
       <Homepage />
     </>
   );

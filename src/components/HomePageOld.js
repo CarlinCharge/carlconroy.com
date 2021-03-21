@@ -9,9 +9,9 @@ const Homepage = () => {
         The Future Location of My Digital Greenhouse 🌱
       </S.Title>
 
-      <S.MainText href="https://carlconroydesign.com">
+      <S.SubText href="https://carlconroydesign.com">
         Carl Conroy Design
-      </S.MainText>
+      </S.SubText>
     </S.Index>
   );
 };
