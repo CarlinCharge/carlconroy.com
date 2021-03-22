@@ -1,7 +1,6 @@
 import * as React from "react";
 import * as S from "./styles";
-import insta from "../../images/insta.png";
-import Twitter from "../../images/Twitter.png";
+import Social from "../Social/Social";
 
 const Homepage = () => {
   const theme = "user";
@@ -15,17 +14,7 @@ const Homepage = () => {
         Carl Conroy Design
       </S.MainText>
       <S.SocialWrapper>
-        <S.SocialIcons
-          src={insta}
-          href="https://www.instagram.com/carlconroydesign/"
-          alt="insta"
-        />
-
-        <S.SocialIcons
-          src={Twitter}
-          href="https://twitter.com/CARLWEARSPRADA"
-          alt="twitter"
-        />
+        <Social />
       </S.SocialWrapper>
     </S.Index>
   );

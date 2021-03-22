@@ -13,6 +13,7 @@ export const Title = styled.h1`
 
 export const SocialWrapper = styled.div`
   display: inline-block;
+  padding-top: 10px;
 `;
 
 export const SocialIcons = styled.img`
