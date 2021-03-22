@@ -17,6 +17,9 @@ export const SocialWrapper = styled.div`
 `;
 
 export const MainText = styled.a`
+  &:hover {
+    color: ${Colors.Green};
+  }
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
