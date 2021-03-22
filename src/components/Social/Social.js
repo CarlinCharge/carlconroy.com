@@ -16,7 +16,6 @@ const LogoInstagram = styled(Instagram)`
   width: 77px;
   height: 80px;
   float: right;
-  c
 `;
 
 const LogoTwitter = styled(Twitter)`
