@@ -4,11 +4,11 @@ import styled from "styled-components";
 export const Ul = styled.ul`
   display: inline-flex;
   text-align: center;
+  flex-wrap: wrap;
 `;
 
 export const Li = styled.li`
   font-family: Montserrat;
-  align-items: flex-end;
   font-style: normal;
   font-weight: normal;
   font-size: 26.45px;
