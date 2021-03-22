@@ -19,11 +19,14 @@ export const SocialWrapper = styled.div`
 export const MainText = styled.a`
   &:hover {
     color: ${Colors.Green};
+    transition: 0.3s;
+    opacity: 1;
+    text-decoration: underline;
   }
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
-  font-size: 35.6614px;
+  font-size: 36px;
   line-height: 165%;
   text-decoration: none;
   /* or 59px */
