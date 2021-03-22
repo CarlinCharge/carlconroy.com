@@ -10,5 +10,6 @@ export const SocialLink = styled.a`
   }
   &:hover {
     color: ${Colors.Green};
+    transition: 500ms ease;
   }
 `;
