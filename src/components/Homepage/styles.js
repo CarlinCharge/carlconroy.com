@@ -11,6 +11,16 @@ export const Title = styled.h1`
   color: ${Colors.HomepageText};
 `;
 
+export const SocialWrapper = styled.div`
+  display: inline-block;
+`;
+
+export const SocialIcons = styled.img`
+  padding: 20px;
+  flex-direction: row;
+  position: center;
+`;
+
 export const MainText = styled.h2`
   font-family: Montserrat;
   font-style: normal;
