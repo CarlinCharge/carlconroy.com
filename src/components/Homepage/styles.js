@@ -16,13 +16,6 @@ export const SocialWrapper = styled.div`
   padding-top: 10px;
 `;
 
-export const SocialIcons = styled.img`
-  padding: 10px;
-  flex-direction: row;
-  position: center;
-  height: auto;
-`;
-
 export const MainText = styled.a`
   font-family: Montserrat;
   font-style: normal;

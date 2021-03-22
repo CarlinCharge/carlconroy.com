@@ -1,4 +1,5 @@
 import React from "react";
+import * as S from "./styles";
 import styled from "styled-components";
 import { Github } from "@styled-icons/boxicons-logos/Github";
 import { Instagram } from "@styled-icons/boxicons-logos/Instagram";
@@ -15,6 +16,7 @@ const LogoInstagram = styled(Instagram)`
   width: 77px;
   height: 80px;
   float: right;
+  c
 `;
 
 const LogoTwitter = styled(Twitter)`
@@ -24,15 +26,15 @@ const LogoTwitter = styled(Twitter)`
 `;
 const Social = () => (
   <div>
-    <a href="https://github.com/CarlinCharge">
+    <S.SocialLink href="https://github.com/CarlinCharge">
       <LogoGithub />
-    </a>
-    <a href="https://instagram.com/CarlConroydesign">
+    </S.SocialLink>
+    <S.SocialLink href="https://instagram.com/CarlConroydesign">
       <LogoInstagram />
-    </a>
-    <a href="https://twitter.com/CarlWearsPrada">
+    </S.SocialLink>
+    <S.SocialLink href="https://twitter.com/CarlWearsPrada">
       <LogoTwitter />
-    </a>
+    </S.SocialLink>
   </div>
 );
 
