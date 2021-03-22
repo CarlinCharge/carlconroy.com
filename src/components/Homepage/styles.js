@@ -16,17 +16,19 @@ export const SocialWrapper = styled.div`
 `;
 
 export const SocialIcons = styled.img`
-  padding: 20px;
+  padding: 10px;
   flex-direction: row;
   position: center;
+  height: auto;
 `;
 
-export const MainText = styled.h2`
+export const MainText = styled.a`
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
   font-size: 35.6614px;
   line-height: 165%;
+  text-decoration: none;
   /* or 59px */
 
   text-align: center;
