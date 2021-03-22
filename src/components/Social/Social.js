@@ -24,9 +24,15 @@ const LogoTwitter = styled(Twitter)`
 `;
 const Social = () => (
   <div>
-    <LogoGithub href="https://github.com/CarlinCharge" />
-    <LogoInstagram href="https://instagram.com/CarlConroydesign" />
-    <LogoTwitter href="https://twitter.com/CarlWearsPrada" />
+    <a href="https://github.com/CarlinCharge">
+      <LogoGithub />
+    </a>
+    <a href="https://instagram.com/CarlConroydesign">
+      <LogoInstagram />
+    </a>
+    <a href="https://twitter.com/CarlWearsPrada">
+      <LogoTwitter />
+    </a>
   </div>
 );
 
