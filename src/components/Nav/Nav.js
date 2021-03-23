@@ -2,7 +2,7 @@ import React from "react";
 import MenuItems from "./MenuItems";
 import * as S from "./styles";
 
-const Nav = () => {
+const Nav = ({ url }) => {
   return (
     <header>
       <nav className="NavbarItems">

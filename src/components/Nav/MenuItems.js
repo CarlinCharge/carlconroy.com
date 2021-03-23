@@ -1,7 +1,10 @@
+import React from "react";
+import { Link } from "gatsby";
+
 const MenuItems = [
   {
     title: "Projects",
-    url: "http://www.carlconroy.com/ComingSoon",
+    url: <Link to="http://carlconroydesign.com/ComingSoon"></Link>,
     cName: "nav-links",
   },
   {
