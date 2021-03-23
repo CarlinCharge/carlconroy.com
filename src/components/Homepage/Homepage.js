@@ -1,10 +1,7 @@
 import * as React from "react";
 import * as S from "./styles";
-<<<<<<< HEAD
-=======
 import Social from "../Social/Social";
 
->>>>>>> Router
 const Homepage = () => {
   const theme = "user";
   return (

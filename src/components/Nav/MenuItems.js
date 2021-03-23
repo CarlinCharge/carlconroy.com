@@ -1,22 +1,22 @@
 const MenuItems = [
   {
     title: "Projects",
-    url: "#",
+    url: "http://www.carlconroy.com/pages/ComingSoon",
     cName: "nav-links",
   },
   {
     title: "Garden",
-    url: "#",
+    url: "http://www.carlconroy.com/pages/ComingSoon",
     cName: "nav-links",
   },
   {
     title: "About",
-    url: "#",
+    url: "http://www.carlconroy.com/pages/ComingSoon",
     cName: "nav-links",
   },
   {
     title: "Resume",
-    url: "#",
+    url: "http://www.carlconroy.com/pages/ComingSoon",
     cName: "nav-links",
   },
 ];

@@ -27,5 +27,17 @@ export const Li = styled.li`
   font-size: 26.45px;
   line-height: 165%;
   list-style-type: none;
-  color: ${Colors.HomepageText};
+`;
+
+export const ListLink = styled.a`
+  &:link {
+    color: ${Colors.HomepageText};
+    text-decoration: none;
+  }
+  &:visited {
+    color: ${Colors.HomepageText};
+  }
+  &:hover {
+    color: ${Colors.Green};
+  }
 `;

@@ -10,9 +10,11 @@ const Nav = () => {
         {MenuItems.map((item, index) => {
           return (
             <S.Ul>
-              <S.Li key={index} className={item.cName} href={item.url}>
-                {item.title}
-              </S.Li>
+              <S.ListLink href={item.url}>
+                <S.Li key={index} className={item.cName}>
+                  {item.title}
+                </S.Li>
+              </S.ListLink>
             </S.Ul>
           );
         })}
