@@ -1,5 +1,10 @@
 import * as React from "react";
 import * as S from "./styles";
+<<<<<<< HEAD
+=======
+import Social from "../Social/Social";
+
+>>>>>>> Router
 const Homepage = () => {
   const theme = "user";
   return (
@@ -11,6 +16,9 @@ const Homepage = () => {
       <S.MainText href="https://carlconroydesign.com">
         Carl Conroy Design
       </S.MainText>
+      <S.SocialWrapper>
+        <Social />
+      </S.SocialWrapper>
     </S.Index>
   );
 };

@@ -11,12 +11,24 @@ export const Title = styled.h1`
   color: ${Colors.HomepageText};
 `;
 
-export const MainText = styled.h2`
+export const SocialWrapper = styled.div`
+  display: inline-block;
+  padding-top: 10px;
+`;
+
+export const MainText = styled.a`
+  &:hover {
+    color: ${Colors.Green};
+    transition: 0.3s;
+    opacity: 1;
+    text-decoration: underline;
+  }
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
-  font-size: 35.6614px;
+  font-size: 36px;
   line-height: 165%;
+  text-decoration: none;
   /* or 59px */
 
   text-align: center;
