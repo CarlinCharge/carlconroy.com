@@ -2,22 +2,21 @@ import React from "react";
 import MenuItems from "./MenuItems";
 import * as S from "./styles";
 
-const Nav = ({ url }) => {
+const Nav = () => {
   return (
     <header>
       <nav className="NavbarItems">
-        <S.H1 className="navbar-main">Carl Conroy</S.H1>
-        {MenuItems.map((item, index) => {
-          return (
-            <S.Ul>
+        <S.Ul>
+          {MenuItems.map((item, index) => {
+            return (
               <S.ListLink href={item.url}>
                 <S.Li key={index} className={item.cName}>
                   {item.title}
                 </S.Li>
               </S.ListLink>
-            </S.Ul>
-          );
-        })}
+            );
+          })}
+        </S.Ul>
       </nav>
     </header>
   );

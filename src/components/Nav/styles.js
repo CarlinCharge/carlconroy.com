@@ -1,14 +1,21 @@
 import * as Colors from "../../styles/Colors";
 import styled from "styled-components";
 
-export const H1 = styled.h1`
+export const MainText = styled.a`
+  &:hover {
+    color: ${Colors.Green};
+    transition: 0.3s;
+    opacity: 1;
+    text-decoration: underline;
+  }
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
-  display: flex;
-  flex-direction: column;
-  float: left;
-  padding: 20px;
+  font-size: 26.45px;
+  line-height: 165%;
+  text-decoration: none;
+  padding: 15px;
+  color: ${Colors.HomepageText};
 `;
 
 export const Ul = styled.ul`
@@ -27,6 +34,7 @@ export const Li = styled.li`
   font-size: 26.45px;
   line-height: 165%;
   list-style-type: none;
+  padding: 5px;
 `;
 
 export const ListLink = styled.a`
