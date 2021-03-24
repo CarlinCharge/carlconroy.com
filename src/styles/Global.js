@@ -12,8 +12,8 @@ export const GlobalStyle = createGlobalStyle`
     padding: 0;
     background-color: ${Colors.HomepageFill};
     color: ${Colors.HomepageText};
-    height: 100%;
-    width:100%;
+    height: 100vh;
+    width:100vw;
     overflow: hidden;
   }
 `;
