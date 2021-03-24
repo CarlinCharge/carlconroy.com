@@ -12,6 +12,7 @@ export const MainText = styled.a`
     opacity: 1;
     text-decoration: underline;
   }
+  align-items: flex-start;
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
@@ -25,7 +26,7 @@ export const MainText = styled.a`
 export const Ul = styled.ul`
   display: inline-flex;
   text-align: center;
-  float: right;
+  align-items: flex-end;
   padding: 20px;
 `;
 
