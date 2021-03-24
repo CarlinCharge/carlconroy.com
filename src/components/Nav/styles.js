@@ -1,6 +1,10 @@
 import * as Colors from "../../styles/Colors";
 import styled from "styled-components";
 
+export const Nav = styled.nav`
+  display: flex;
+`;
+
 export const MainText = styled.a`
   &:hover {
     color: ${Colors.Green};
@@ -21,7 +25,6 @@ export const MainText = styled.a`
 export const Ul = styled.ul`
   display: inline-flex;
   text-align: center;
-  flex-wrap: wrap;
   float: right;
   padding: 20px;
 `;

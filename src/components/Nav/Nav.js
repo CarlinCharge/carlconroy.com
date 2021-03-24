@@ -5,7 +5,7 @@ import * as S from "./styles";
 const Nav = () => {
   return (
     <header>
-      <nav className="NavbarItems">
+      <S.Nav className="NavbarItems">
         <S.Ul>
           {MenuItems.map((item, index) => {
             return (
@@ -17,7 +17,7 @@ const Nav = () => {
             );
           })}
         </S.Ul>
-      </nav>
+      </S.Nav>
     </header>
   );
 };
