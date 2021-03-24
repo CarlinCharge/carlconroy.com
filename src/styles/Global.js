@@ -13,6 +13,7 @@ export const GlobalStyle = createGlobalStyle`
     background-color: ${Colors.HomepageFill};
     color: ${Colors.HomepageText};
     height: 100%;
+    width:100%;
     overflow: hidden;
   }
 `;
