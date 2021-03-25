@@ -20,11 +20,11 @@ export const MainText = styled.a`
   line-height: 165%;
   text-decoration: none;
   padding: 15px;
-  color: ${Colors.HomepageText};
+  color: red;
 `;
 
 export const Ul = styled.ul`
-  display: inline-flex;
+  display: flex;
   text-align: center;
   align-items: flex-end;
   padding: 20px;

@@ -15,7 +15,7 @@ const MenuItems = [
     cName: "nav-links",
   },
   {
-    title: "Resume",
+    title: "Resumé",
     url: "/ComingSoon",
     cName: "nav-links",
   },
