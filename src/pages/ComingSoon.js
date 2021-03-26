@@ -12,7 +12,6 @@ const ComingSoon = () => {
       <S.Index>
         <S.Title>Coming Soon...</S.Title>
         <Social />
-        <S.MainText href="/">Return Home</S.MainText>
       </S.Index>
     </div>
   );

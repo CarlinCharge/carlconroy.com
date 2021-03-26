@@ -39,7 +39,7 @@ export const Li = styled.li`
   padding: 5px;
 `;
 
-export const ListLink = styled.a`
+export const ListLink = styled(Link)`
   &:link {
     color: ${Colors.HomepageText};
     text-decoration: none;
