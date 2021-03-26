@@ -1,11 +1,11 @@
 import * as Colors from "../../styles/Colors";
 import styled from "styled-components";
-
+import { Link } from "gatsby";
 export const Nav = styled.nav`
   display: flex;
 `;
 
-export const MainText = styled.a`
+export const MainText = styled(Link)`
   &:hover {
     color: ${Colors.Green};
     transition: 0.3s;

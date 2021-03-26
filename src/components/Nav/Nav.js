@@ -5,7 +5,7 @@ import * as S from "./styles";
 const Nav = () => {
   return (
     <S.Header>
-      <S.MainText href="/">Carl Conroy</S.MainText>
+      <S.MainText to="/">Carl Conroy</S.MainText>
       <S.Nav className="NavbarItems">
         <S.Ul>
           {MenuItems.map((item, index) => {
