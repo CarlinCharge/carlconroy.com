@@ -25,8 +25,6 @@ export const MainText = styled.a`
 
 export const Ul = styled.ul`
   display: inline-flex;
-  text-align: center;
-  align-items: flex-end;
   padding: 20px;
 `;
 
@@ -52,4 +50,11 @@ export const ListLink = styled.a`
   &:hover {
     color: ${Colors.Green};
   }
+`;
+
+export const Header = styled.header`
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
 `;

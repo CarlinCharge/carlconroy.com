@@ -4,7 +4,8 @@ import * as S from "./styles";
 
 const Nav = () => {
   return (
-    <header>
+    <S.Header>
+      <S.MainText href="/">Carl Conroy</S.MainText>
       <S.Nav className="NavbarItems">
         <S.Ul>
           {MenuItems.map((item, index) => {
@@ -18,7 +19,7 @@ const Nav = () => {
           })}
         </S.Ul>
       </S.Nav>
-    </header>
+    </S.Header>
   );
 };
 
