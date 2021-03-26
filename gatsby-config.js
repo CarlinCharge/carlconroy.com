@@ -3,6 +3,13 @@ module.exports = {
     title: "CarlConroy",
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`Montserrat`],
+        display: "swap",
+      },
+    },
     "gatsby-plugin-mdx",
     { resolve: `gatsby-plugin-styled-components` },
     {
