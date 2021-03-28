@@ -10,7 +10,22 @@ module.exports = {
         display: "swap",
       },
     },
-    "gatsby-plugin-mdx",
+    {
+      resolve: "gatsby-plugin-page-creator",
+      options: {
+        path: `${__dirname}/src/posts`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        defaultLayouts: {
+          default: require.resolve(
+            "./src/components/PostsLayout/PostsLayout.js"
+          ),
+        },
+      },
+    },
     { resolve: `gatsby-plugin-styled-components` },
     {
       resolve: "gatsby-source-filesystem",
