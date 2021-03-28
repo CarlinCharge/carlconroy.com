@@ -15,7 +15,6 @@ const LogoInstagram = styled(Instagram)`
   flex-direction: column;
   width: 77px;
   height: 80px;
-  float: right;
 `;
 
 const LogoTwitter = styled(Twitter)`

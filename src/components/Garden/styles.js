@@ -45,3 +45,6 @@ export const Index = styled.div`
   width: 100vw;
   height: 100vh;
 `;
+export const Wrapper = styled.div`
+  display: flex;
+`;

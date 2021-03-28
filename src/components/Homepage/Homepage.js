@@ -4,7 +4,6 @@ import Social from "../Social/Social";
 import Footer from "../Footer/Footer";
 
 const Homepage = () => {
-  const theme = "user";
   return (
     <S.Index>
       <S.Title>The Future Location of My Digital Greenhouse 🌱</S.Title>
