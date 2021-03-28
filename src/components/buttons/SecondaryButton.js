@@ -1,5 +1,5 @@
 import styled from "styled-components";
 
 const SecondaryButton = () => {
-  return <S.SecondaryButton>View The Project</S.SecondaryButton>;
+  return <S.SecondaryButton>See All Projects</S.SecondaryButton>;
 };

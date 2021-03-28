@@ -11,6 +11,4 @@ const Paragraph = styled.p`
   color: ${Colors.HomepageText};
 `;
 
-const PrimaryButton = styled.button`
-  color: ${HomepageMainButton};
-`;
+const ProjectImage = styled.img``;
