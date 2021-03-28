@@ -16,7 +16,7 @@ const MenuItems = [
   },
   {
     title: "Resumé",
-    url: "/ComingSoon",
+    url: "/resume",
     cName: "nav-links",
   },
 ];
