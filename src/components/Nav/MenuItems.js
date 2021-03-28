@@ -11,7 +11,7 @@ const MenuItems = [
   },
   {
     title: "About",
-    url: "/about-me",
+    url: "/ComingSoon",
     cName: "nav-links",
   },
   {

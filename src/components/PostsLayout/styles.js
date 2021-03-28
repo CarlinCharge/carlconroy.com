@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import * as Type from "../../styles/Type";
 import * as Colors from "../../styles/Colors";
+import { Link } from "gatsby";
 
 export const Wrapper = styled.div`
   display: flex;
@@ -15,7 +16,7 @@ export const PostWrapper = styled.div`
   min-height: 100vh;
 `;
 
-export const Link = styled.a`
+export const PostLink = styled(Link)`
   &:link {
     color: ${Colors.HomepageText};
   }
