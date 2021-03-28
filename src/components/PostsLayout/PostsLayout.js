@@ -12,7 +12,9 @@ const PostLayout = ({ children }) => {
       <S.Wrapper>
         <S.Content>{children}</S.Content>
       </S.Wrapper>
-      <Footer />
+      <S.Wrapper>
+        <Footer />
+      </S.Wrapper>
     </S.PostWrapper>
   );
 };
