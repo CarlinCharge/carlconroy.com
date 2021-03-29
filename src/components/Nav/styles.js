@@ -3,6 +3,11 @@ import styled from "styled-components";
 import { Link } from "gatsby";
 export const Nav = styled.nav`
   display: flex;
+  @media (max-width: 768px) {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: column nowrap;
+  }
 `;
 
 export const MainText = styled(Link)`
