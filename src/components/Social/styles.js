@@ -13,3 +13,7 @@ export const SocialLink = styled.a`
     transition: 500ms ease;
   }
 `;
+
+export const Wrapper = styled.div`
+  display: flex;
+`;

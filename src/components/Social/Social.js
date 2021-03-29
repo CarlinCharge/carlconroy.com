@@ -23,7 +23,7 @@ const LogoTwitter = styled(Twitter)`
   flex-direction: column;
 `;
 const Social = () => (
-  <div>
+  <S.Wrapper>
     <S.SocialLink href="https://github.com/CarlinCharge">
       <LogoGithub />
     </S.SocialLink>
@@ -33,7 +33,7 @@ const Social = () => (
     <S.SocialLink href="https://twitter.com/CarlWearsPrada">
       <LogoTwitter />
     </S.SocialLink>
-  </div>
+  </S.Wrapper>
 );
 
 export default Social;
