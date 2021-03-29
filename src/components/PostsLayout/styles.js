@@ -9,7 +9,8 @@ export const Wrapper = styled.div`
 `;
 
 export const Content = styled.div`
-  width: 70ch font-family ${Type.FontFamily};
+  width: 60ch font-family ${Type.FontFamily};
+  text-align: center;
 `;
 
 export const PostWrapper = styled.div`
