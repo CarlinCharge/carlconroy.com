@@ -12,7 +12,6 @@ export const MainText = styled(Link)`
     opacity: 1;
     text-decoration: underline;
   }
-  align-items: flex-start;
   font-family: Montserrat;
   font-style: normal;
   font-weight: normal;
@@ -26,6 +25,7 @@ export const MainText = styled(Link)`
 export const Ul = styled.ul`
   display: inline-flex;
   padding: 20px;
+  overflow: hidden;
 `;
 
 export const Li = styled.li`

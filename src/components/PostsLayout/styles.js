@@ -29,3 +29,5 @@ export const PostLink = styled(Link)`
     transition: 500ms ease;
   }
 `;
+
+export const Image = styled.img``;
