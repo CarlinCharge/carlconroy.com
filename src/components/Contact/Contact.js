@@ -1,5 +1,4 @@
 import React from "react";
-import * as S from "./styles";
 import PrimaryButton from "../buttons/PrimaryButton";
 
 const Contact = () => {
@@ -13,7 +12,7 @@ const Contact = () => {
           <input id="email" type="email" name="_replyto" />
           <label htmlFor="message">Message</label>
           <textarea id="message" name="message" />
-          <button type="submit"></button>
+          <button type="submit">Submit</button>
         </form>
       </main>
     </div>
