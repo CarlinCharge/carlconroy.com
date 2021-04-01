@@ -44,4 +44,5 @@ export const Index = styled.div`
   text-align: center;
   width: 100vw;
   height: 100vh;
+  padding: 10px;
 `;

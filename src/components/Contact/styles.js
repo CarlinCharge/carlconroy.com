@@ -9,4 +9,10 @@ export const Wrapper = styled.div`
   align-items: center;
   font-family: ${Type.FontFamily};
   padding: 10px;
+  width: 50%;
+  padding: 20px;
+`;
+
+export const StyledTextarea = styled.textarea`
+  width: 100%; ;
 `;

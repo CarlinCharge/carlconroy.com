@@ -1,10 +1,5 @@
-<<<<<<< HEAD
-import React from "react";
-=======
 import React, { useState } from "react";
 import axios from "axios";
-import * as S from "./styles";
->>>>>>> formspree
 import PrimaryButton from "../buttons/PrimaryButton";
 import * as S from "./styles";
 
@@ -71,31 +66,25 @@ const Contact = () => {
   return (
     <div>
       <main>
-<<<<<<< HEAD
-        <S.Wrapper>
-          <h1>Let's Build Together!</h1>
-          <hr />
-          <S.Form>
-            <S.Wrapper>
-              <label htmlFor="email">Email</label>
-              <input id="email" type="email" name="_replyto" />
-              <label htmlFor="message">Message</label>
-              <textarea id="message" name="message" />
-              <button type="submit">Submit</button>
-            </S.Wrapper>
-          </S.Form>
-        </S.Wrapper>
-=======
         <h1>Let's Build Together!</h1>
         <hr />
-        <form onSubmit={handleOnSubmit}>
-          <label htmlFor="email">Email</label>
-          <input id="email" type="email" name="_replyto" />
-          <label htmlFor="message">Message</label>
-          <textarea id="message" name="message" onChange={handleOnChange} />
-          <button type="submit">Send</button>
-        </form>
->>>>>>> formspree
+        <S.Wrapper>
+          <form onSubmit={handleOnSubmit}>
+            <label htmlFor="email">Email</label>
+            <input id="email" type="email" name="_replyto" />
+            <label htmlFor="message">Message</label>
+            <S.StyledTextarea
+              id="message"
+              name="message"
+              onChange={handleOnChange}
+            />
+            <button type="submit">Send</button>
+          </form>
+        </S.Wrapper>
+        {status.info.error && (
+          <div className="error">Error: {status.info.msg}</div>
+        )}
+        {!status.info.error && status.info.msg && <p>{status.info.msg}</p>}
       </main>
     </div>
   );

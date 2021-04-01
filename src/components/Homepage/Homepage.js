@@ -1,6 +1,7 @@
 import * as React from "react";
 import * as S from "./styles";
 import Footer from "../Footer/Footer";
+import Contact from "../Contact/Contact";
 
 const Homepage = () => {
   return (
@@ -9,6 +10,7 @@ const Homepage = () => {
       <S.MainText href="https://carlconroydesign.com">
         Carl Conroy Design
       </S.MainText>
+      {/* <Contact /> */}
       <Footer />
     </S.Index>
   );
