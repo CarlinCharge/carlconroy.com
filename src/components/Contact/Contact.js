@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import axios from "axios";
-import PrimaryButton from "../buttons/PrimaryButton";
 import * as S from "./styles";
 
 const Contact = () => {
@@ -23,7 +22,8 @@ const Contact = () => {
       });
       setInputs({
         email: "",
-        message: "",
+        message:
+          "Interested in building together? Shoot me a message to start the process of bringing your vision to life",
       });
     } else {
       setStatus({
