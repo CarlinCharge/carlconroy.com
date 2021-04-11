@@ -17,7 +17,7 @@ export const GlobalStyle = createGlobalStyle`
     color: ${Colors.HomepageText};
     height: 100vh;
     width:100vw;
-    overflow: hidden;
+    overflow-x: hidden;
     
   }
 `;
