@@ -6,10 +6,11 @@ export const Form = styled.form`
   display: flex; ;
 `;
 export const Wrapper = styled.div`
-  align-items: center;
+  align-items: left;
+  flex-direction: column;
   font-family: ${Type.FontFamily};
   padding: 10px;
-  width: 50%;
+  max-width: 70ch;
   padding: 20px;
 `;
 

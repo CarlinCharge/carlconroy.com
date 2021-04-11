@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
 `;
 
 export const Content = styled.div`
-  width: 60ch font-family ${Type.FontFamily};
+  font-family: ${Type.FontFamily};
   max-width: 70ch;
   line-height: 2rem;
   margin-bottom: 11rem;
