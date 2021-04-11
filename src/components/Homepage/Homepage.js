@@ -10,7 +10,7 @@ const Homepage = () => {
       <S.MainText href="https://carlconroydesign.com">
         Carl Conroy Design
       </S.MainText>
-      {/* <Contact /> */}
+      <Contact />
       <Footer />
     </S.Index>
   );
