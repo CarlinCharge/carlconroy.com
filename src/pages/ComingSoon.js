@@ -6,14 +6,14 @@ import Nav from "../components/Nav/Nav";
 
 const ComingSoon = () => {
   return (
-    <div>
+    <>
       <GlobalStyle />
       <Nav />
       <S.Index>
         <S.Title>Coming Soon...</S.Title>
         <Footer />
       </S.Index>
-    </div>
+    </>
   );
 };
 

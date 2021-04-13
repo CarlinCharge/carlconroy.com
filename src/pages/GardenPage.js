@@ -5,11 +5,11 @@ import { GlobalStyle } from "../styles/Global";
 
 const GardenPage = () => {
   return (
-    <div>
+    <>
       <GlobalStyle />
       <Nav />
       <Garden />
-    </div>
+    </>
   );
 };
 

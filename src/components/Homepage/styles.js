@@ -29,10 +29,7 @@ export const MainText = styled.a`
   font-size: 36px;
   line-height: 165%;
   text-decoration: none;
-  /* or 59px */
-
   text-align: center;
-
   color: ${Colors.HomepageText};
 `;
 

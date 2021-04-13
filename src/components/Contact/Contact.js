@@ -12,7 +12,7 @@ function ContactForm() {
       <TextField />
       <ValidationError prefix="Email" field="email" errors={state.errors} />
       <TextArea />
-      <textarea id="message" name="message" />
+
       <ValidationError prefix="Message" field="message" errors={state.errors} />
       <button type="submit" disabled={state.submitting}>
         Submit
