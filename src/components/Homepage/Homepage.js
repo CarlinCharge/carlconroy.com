@@ -2,6 +2,7 @@ import * as React from "react";
 import * as S from "./styles";
 import Footer from "../Footer/Footer";
 import Contact from "../Contact/Contact";
+import Projects from "../Projects/Projects";
 
 const Homepage = () => {
   return (
@@ -10,6 +11,7 @@ const Homepage = () => {
       <S.MainText href="https://carlconroydesign.com">
         Carl Conroy Design
       </S.MainText>
+      <Projects />
       <Contact />
       <Footer />
     </S.Index>
