@@ -5,7 +5,7 @@ const TextArea = () => {
   return (
     <S.Wrapper>
       <label htmlFor="message">Message</label>
-      <textarea id="message" name="message" />
+      <S.TextArea id="message" name="message" placeholder="send me a message" />
     </S.Wrapper>
   );
 };

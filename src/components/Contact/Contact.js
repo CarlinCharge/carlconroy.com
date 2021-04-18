@@ -2,6 +2,9 @@ import React from "react";
 import { useForm, ValidationError } from "@formspree/react";
 import TextField from "../TextField/TextField";
 import TextArea from "../TextArea/TextArea";
+import ContactButton from "../buttons/ContactButton";
+import * as S from "./styles";
+
 function ContactForm() {
   const [state, handleSubmit] = useForm("mayawkpp");
   if (state.succeeded) {
@@ -9,14 +12,13 @@ function ContactForm() {
   }
   return (
     <form onSubmit={handleSubmit}>
+      <S.FieldLabel>Contact</S.FieldLabel>
+      <S.SubFieldLabel>Let's Work Together!</S.SubFieldLabel>
       <TextField />
       <ValidationError prefix="Email" field="email" errors={state.errors} />
       <TextArea />
-
       <ValidationError prefix="Message" field="message" errors={state.errors} />
-      <button type="submit" disabled={state.submitting}>
-        Submit
-      </button>
+      <ContactButton submitting={state.submitting} />
     </form>
   );
 }
