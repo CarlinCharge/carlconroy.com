@@ -10,10 +10,8 @@ const Nav = () => {
         <S.Ul>
           {MenuItems.map((item, index) => {
             return (
-              <S.ListLink to={item.url}>
-                <S.Li key={index} className={item.cName}>
-                  {item.title}
-                </S.Li>
+              <S.ListLink to={item.url} key={index}>
+                <S.Li className={item.cName}>{item.title}</S.Li>
               </S.ListLink>
             );
           })}

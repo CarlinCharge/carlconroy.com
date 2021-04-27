@@ -7,12 +7,14 @@ export const PrimaryButton = styled.button`
   font-family: ${Type.FontFamily};
   font-style: normal;
   font-weight: bold;
-  font-size: 19.89px;
+  font-size: 16px;
   letter-spacing: 0.15em;
   color: ${Colors.HomepageText};
-  border: 0px;
-  width: 208.5px;
-  height: 39.78px;
+  border: 0;
+  outline: 0;
+  border-radius: 12px;
+  min-width: 170px;
+  height: 42px;
   text-transform: uppercase;
   &:disabled {
     background-color: grey;
@@ -21,7 +23,11 @@ export const PrimaryButton = styled.button`
 
 export const SecondaryButton = styled.button`
   color: ${Colors.HomepageSecondButton};
-  font-family: Montserrat;
+  font-family: ${Type.FontFamily};
   font-style: normal;
   font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 0.15em;
+  height: 42px;
+  border-radius: 12px;
 `;

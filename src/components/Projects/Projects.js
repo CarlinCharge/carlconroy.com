@@ -1,5 +1,4 @@
 import React from "react";
-import * as S from "./styles";
 import projectsList from "./projectsList";
 import Project from "../Project/Project";
 
