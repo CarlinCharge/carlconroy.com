@@ -11,7 +11,7 @@ const Homepage = () => {
       <S.MainText href="https://carlconroydesign.com">
         Carl Conroy Design
       </S.MainText>
-      <Projects />
+      {/* <Projects /> */}
       {/* <Contact /> */}
       <Footer />
     </S.Index>
