@@ -1,9 +1,10 @@
 import React from "react";
 import Entries from "./Entries";
 import * as S from "./styles";
+import GardenIndex from "../../pages/GardenIndex";
 
 const Garden = () => {
-  return <S.Title>The Garden</S.Title>;
+  <GardenIndex />;
 };
 
 export default Garden;
