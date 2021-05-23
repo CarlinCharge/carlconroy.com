@@ -1,27 +1,17 @@
 import React from "React";
 import { graphql } from "gatsby";
-import { PostLink } from "../components/PostsLayout/styles.js";
+import PostList from "../components/PostList/PostList";
 import Nav from "../components/Nav/Nav";
 import { GlobalStyle } from "../styles/Global";
 
-const GardenIndex = (props) => {
-  console.log("garden props", props);
-  const Posts = props.data.allMdx.edges
-    .filter((edge) => !!edge.node.frontmatter.date)
-    .map((edge) => (
-      <div>
-        <PostLink key={edge.node.id} post={edge.node}>
-          {edge.node.frontmatter.title}
-        </PostLink>
-        <div>{edge.node.frontmatter.description}</div>
-      </div>
-    ));
+const GardenIndex = ({ data }) => {
+  const posts = data.allMdx.edges;
 
   return (
     <div>
       <GlobalStyle />
       <Nav />
-      {Posts}
+      <PostList data={posts} />
     </div>
   );
 };
