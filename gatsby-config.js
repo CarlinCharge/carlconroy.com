@@ -22,6 +22,16 @@ module.exports = {
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
+        gatsbyRemarkPlugins: [
+          {
+            resolve: "gatsby-remark-images",
+            options: {
+              maxWidth: 1080,
+              quality: 70,
+              backgroundColor: "none",
+            },
+          },
+        ],
         defaultLayouts: {
           default: require.resolve(
             "./src/components/PostsLayout/PostsLayout.js"
