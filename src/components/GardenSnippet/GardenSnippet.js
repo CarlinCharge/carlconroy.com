@@ -1,13 +1,22 @@
 import React from "react";
 import * as S from "./styles";
+import Img from "gatsby-image";
 
-const GardenSnippet = ({ title, subtitle, description, img, key, path }) => {
+const GardenSnippet = ({
+  title,
+  subtitle,
+  description,
+  featuredImage,
+  key,
+  path,
+}) => {
+  let featuredImgFluid = featuredImage.childImageSharp.fluid;
   return (
     <S.GardenSnippetComponent>
       <S.Title>{title}</S.Title>
       <S.Subtitle>{subtitle}</S.Subtitle>
       <S.Description>{description}</S.Description>
-      <S.Image>{img}</S.Image>
+      <Img fluid={featuredImgFluid} />
     </S.GardenSnippetComponent>
   );
 };

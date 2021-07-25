@@ -3,10 +3,11 @@ import { graphql } from "gatsby";
 import PostList from "../components/PostList/PostList";
 import Nav from "../components/Nav/Nav";
 import { GlobalStyle } from "../styles/Global";
+import Img from "gatsby-image";
 
 const GardenIndex = ({ data }) => {
   const posts = data.allMdx.edges;
-
+  console.log(posts);
   return (
     <div>
       <GlobalStyle />
@@ -28,6 +29,13 @@ export const pageQuery = graphql`
         node {
           frontmatter {
             title
+            featuredImage {
+              childImageSharp {
+                fluid(maxWidth: 800) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
             path
             date(formatString: "MMMM DD, YYYY")
             description
