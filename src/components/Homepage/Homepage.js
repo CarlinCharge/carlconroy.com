@@ -12,7 +12,7 @@ const Homepage = () => {
         Carl Conroy Design
       </S.MainText>
       {/* <Projects /> */}
-      {/* <Contact /> */}
+      <Contact />
       <Footer />
     </S.Index>
   );
